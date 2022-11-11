@@ -1,0 +1,579 @@
+	.paragraph1{
+		line-height: 20px;
+	}
+	.paragraph2{
+		line-height: 20px;
+	}
+	.paragraph3{
+		line-height: 20px;
+	}
+	.Cookie-statement{
+		position: fixed;
+		float: right;
+		background-color: #FA0;
+		z-index: 9999;
+		bottom:0%;
+		right:0%;
+		opacity: 50%;
+	
+	}
+	.cookie-text{
+		color: #FFF;
+		text-align: center;
+		z-index: 9999;
+	}
+	.footer{
+		position: fixed;
+		bottom: 0%;
+		left: 0%;
+	}
+	.video-pc{
+		width:50%; 
+	}
+	.video-mobile{
+		width:25%;
+	}
+	#smartwatch-img1
+	{
+		width:  200px;
+		height: 200px;
+	}
+	#smartwatch-img2
+	{
+		width: 200px;
+		height: 200px;
+	}
+	#smartwatch-img3
+	{
+		width: 200px;
+		height: 200px;
+	}
+
+@media only screen and (min-width: 1280px) /*pc */ 
+{
+	body{
+		width: 1280px;
+		background-color: #CCF;
+		
+	}
+	.video-mobile{
+		display: none;
+	}
+
+	.aside-route{
+		float: right;
+		position: fixed;
+		top:0%;
+		right:0%;
+		margin-top: 200px;
+		width: 10%;
+}
+	#skeo-app{
+		width:200px;
+		float: right;
+		height: 100px;
+
+	}
+	#Force-Hooks{
+		width: 200px;
+		height: 100px;
+		float: right;
+	}
+	#Virtual-reality{
+		width:200px;
+		height: 100px;
+		float: right;
+
+	}
+	.nav-bar{
+		display: inline-block;
+		text-align: center;
+		padding-left: 0px;
+		background-color: #333333;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+
+	}
+	#producten-grid-container{
+		padding: 10px;
+		display: grid;
+		grid-template-colums: auto auto auto;
+	}
+	#producten-grid-container > article
+	{
+		background-color: #EEE;
+		border: solid 10px #666;
+		padding: 20px 0;
+		font-size: 10px;
+		
+	}
+	#global-story{
+		grid-column: 2 / 3; 
+		grid-row: 1 / 3;
+	}
+	#problem-solve{
+		grid-column: 1;'
+		grid-row: 1;
+	}
+	#use-smartwatch{
+		grid-column: 3;
+		grid-row: 1;
+	}
+	#celebs-smartwatch{
+		grid-column: 3;
+		grid-row: 2;
+	}
+	#service-company{
+		grid-row: 2 / 4;
+		grid-column: 1;
+	}
+	#future-smartwatch{
+		grid-column: 2 / 4;
+		grid-row: 3;
+	}
+	.img-smartwatch1{
+		display: grid;
+		grid-template-columns: 400px 200px auto;
+		justify-content: space-evenly;
+
+	}
+	.img-smartbeamer2{
+		display: grid;
+		grid-template-columns: 300px 200px auto;
+		justify-content: space-evenly;
+
+	}
+	.img-jenniferanniston3{
+		display: grid;
+		grid-template-columns: 100px 250px 500px;
+		justify-content: space-evenly;
+		
+	}	
+	.aboutinnovation{
+		line-height: 5px;
+	}
+	.tablepricing{
+		width:70%;
+	}
+	.copyright{
+		float: left;
+		text-align: left;
+	}
+	.imgcontact{
+		float: right;
+		position:fixed;
+		right: 0%;
+		top: 125px;
+	}
+	.aboutinnovation{
+		line-height: 20px;
+	}
+	#img-contact1{
+		width: 200px;
+		height:auto;
+	}
+	#img-contact2{
+		width: 200px;
+		height:auto;
+	}
+	#img-contact3{
+		width: 200px;
+		height:auto;
+	}
+	.article-1{
+		background-color: #FF0;
+		line-height: 10px;
+	}
+	.article-2{
+		background-color: #F00;
+		line-height: 10px;
+
+	}
+	.article-3{
+		background-color: #0FF;
+		line-height: 10px;
+	}
+	.imgpricing{
+		float: right;
+		position:fixed;
+		right: 0%;
+		top: 75px;
+	}
+	#img-pricing1{
+		width:200px;
+	}
+	#img-pricing2{
+		width:200px;
+	}
+	#img-pricing3{
+		width:200px;
+	}
+	#mobile-menu{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 480px) /*mobile */ 
+{
+	body{
+		width: 100%;
+		background-color: #FCC;
+		
+	}
+	.video-pc{
+		display: none;
+	}
+	#skeo-app{
+		width: 100px;
+	}
+	#Force-Hooks{
+		width: 100px;
+	}
+	#Virtual-reality{
+		width: 100px;
+	}
+	.paragraph1{
+		font-size: 10px;
+	}
+	.paragraph2{
+		font-size: 10px;
+	}
+	.paragraph3{
+		font-size: 10px;
+	}
+	.container-paragraph{
+		display: flex;
+		flex-direction: column;
+	}
+	#article-1{
+		order: 3;
+	}
+	#article-2{
+		order: 2;
+	}
+	#article-3{
+		order: 1;
+	}
+	#producten-grid-container{
+		display: grid;
+		grid-template-areas: auto auto auto auto ;
+	}
+	#producten-grid-container > article
+	{
+		background-color: #EEE;
+		border: solid 2px #666;
+		padding: 20px 0;
+		font-size: 10px;
+		
+	}
+	#global-story{
+		grid-column: 1 / 4; 
+		grid-row: 4;
+	}
+	#problem-solve{
+		grid-column: 1 / 4;'
+		grid-row: 3;
+	}
+	#use-smartwatch{
+		grid-column: 1 / 4;
+		grid-row: 2;
+	}
+	#celebs-smartwatch{
+		display: none;
+	}
+	#service-company{
+		grid-row: 1;
+		grid-column: 1 / 4;
+	}
+	#future-smartwatch{
+		display: none;
+	}
+	.table-paragrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.tablepricing{
+		order: 1;
+	}
+	.aboutinnovation{
+		order: 2;
+	}
+	#img-pricing1{
+		width: 100px;
+	}
+	#img-pricing2{
+		width: 100px;
+	}
+	#img-pricing3{
+		width: 100px;
+	}
+	.imgcontact{
+		float: right;
+		position: fixed;
+		right: 0%;
+		top: 200px;
+	}
+	#img-contact1{
+		width: 50px;
+		height: 50px;
+	}
+	#img-contact2{
+		width: 50px;
+		height: 50px;
+	}
+	#img-contact3{
+		width: 50px;
+		height: 50px;
+	}
+	#article-1{
+		display: flex;
+		flex-direction: column;
+	}
+	.menufloat{
+		position: fixed;
+		width: 200px;
+		float: right;
+		top: 25px;
+		right: 0%;
+	}
+	.menuM{
+		float: right;
+		top: 25px;
+		right: 0%;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.menuM li{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.menuM ul{
+		background: #FFF;
+		list-style: none;
+		opacity: 0;
+		margin: 0;
+		padding: 0;
+		border: none;
+		
+	}
+	.nav-bar1{
+		background: #D6D6D6;
+	}
+	.menuM li:hover > ul
+	{
+		opacity: 1;
+	}
+	.menuM ul:hover > ul
+	{
+		opacity: 1;
+		
+	}
+	.menuM li:hover > ul li
+	{
+		height: 40px;
+		opacity: 1;
+	}
+	.menu-tabletpc{
+		display: none;
+	}
+	.menuM li a{
+		color: #FFF;
+	}
+	.aside-route{
+		display: none;
+	}
+	.menuM:hover{
+		opacity: 1;
+	}
+	
+
+
+	
+}
+@media screen and (min-width: 481px) and (max-width: 1279px) /*tablet */ 
+{
+	body{
+		width: 720px;
+		background-color: #CFC;
+		
+	}
+	.nav-bar{
+		display: inline-block;
+		text-align: center;
+		padding-left: 0px;
+		background-color: #333333;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px;
+
+	}
+	.video-mobile{
+		display: none;
+	}
+
+	#skeo-app{
+		width:200px;
+		float: left;
+		height: 150px;
+
+	}
+	#Force-Hooks{
+		width: 200px;
+		height: 150px;
+		float: left;
+	}
+	#Virtual-reality{
+		width:200px;
+		height: 200px;
+		float: left;
+	}
+	#namevirtual{
+		
+	}
+	.container-paragraph{
+		display: flex;
+		flex-direction: column;
+	}
+	#article-1{
+		order: 3;
+	}
+	#article-2{
+		order: 2;
+	}
+	#article-3{
+		order: 1;
+	}
+	#producten-grid-container{
+		display: grid;
+		grid-template-areas: auto auto auto auto auto;
+	}
+	#producten-grid-container > article
+	{
+		background-color: #EEE;
+		border: solid 2px #666;
+		padding: 20px 0;
+		font-size: 10px;
+		
+	}
+	#global-story{
+		grid-column: 1; 
+		grid-row: 1;
+	}
+	#problem-solve{
+		grid-column: 3;'
+		grid-row: 1;
+	}
+	#use-smartwatch{
+		grid-column: 1;
+		grid-row: 2 / 5;
+	}
+	#celebs-smartwatch{
+		display: none;
+	}
+	#service-company{
+		grid-row: 2;
+		grid-column: 3;
+	}
+	#future-smartwatch{
+		grid-column: 1 / 5;
+		grid-row: 3;
+	}
+    .img-smartwatch1{
+		display: grid;
+		grid-template-columns: 40% 40% auto;
+	}	
+	.img-smartbeamer2
+	{
+		display: grid;
+		grid-template-columns: 40% 40% auto;
+	}
+	.img-jenniferanniston3{
+		display: none;
+	}
+
+	.img-contact-photofuture{
+		display: grid;
+		grid-template-columns: 40% 40% auto;
+	}
+	.img-contact-celeberty{
+		display: grid;
+		grid-template-columns: 40% 40% auto;
+	}
+	.img-pricing-2{
+		display: grid;
+		grid-template-columns: 20% 20% auto;
+	}
+	.img-pricing-3{
+		display: grid;
+		grid-template-columns: 20% 20% auto;
+	}
+	
+	#img-pricing1{
+		display: none;
+	}
+	#img-pricing2{
+		width: 200px;
+		height: 200px;
+	}
+	#img-pricing3{
+		width: 200px;
+		height: 200px;
+	}
+	#img-contact1{
+		width: 200px;
+		height: 200px;
+		float: right;
+		position: fixed;
+		top:0%;
+		right:0%;
+		margin-top: 300px;
+		width: 10%;
+	}
+	#img-contact2{
+		width: 200px;
+		height: 200px;
+		float: right;
+		position: fixed;
+		top:0%;
+		right:0%;
+		margin-top: 500px;
+		width: 10%;
+	}
+	#img-contact3{
+		width: 200px;
+		height: 200px;
+		float: right;
+		position: fixed;
+		top:0%;
+		right:0%;
+		margin-top: 700px;
+		width: 10%;
+	}
+	.imgcontact{
+		float: right;
+		position:fixed;
+		right: 0%;
+		top: 125px;
+	}
+	#mobile-menu{
+		display: none;
+	}
+	.aside-route{
+		display: none;
+	}
+
+
+
+}
+
+
